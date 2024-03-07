@@ -1,18 +1,25 @@
 body {
     color: #333333;
-    font-family: "Lucida Sans Unicode", "Lucinda Grande", sans-serif;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
 }
-h1{
+
+h1 {
     background-image: url(../img/sobre-background.jpg);
 }
-h2{
+
+h2 {
     border-bottom: 2px groove #333333;
 }
-figure{
+
+figure {
     background-color: #f2eded;
     border: 1px solid #ccc;
     text-align: center;
 }
-figcaption{
+
+figcaption {
     font-style: italic;
 }
