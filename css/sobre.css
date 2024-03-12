@@ -1,8 +1,19 @@
+/* cor-base(body e h2)
+   cor-fundo-img (figure)
+   cor-borda-img (figure)
+*/
+:root{
+    --cor-base: #000000;
+    --cor-fundo-img: #b0b1b3;
+    --cor-borda-img: #adacac;
+}
+
 body {
-    color: #333333;
+    color: var(--cor-base);
     font-family: "Lato", sans-serif;
     font-weight: 400;
     font-style: normal;
+
 
 }
 
@@ -15,8 +26,8 @@ h2 {
 }
 
 figure {
-    background-color: #f2eded;
-    border: 1px solid #ccc;
+    background-color: var(--cor-fundo-img);
+    border: 1px solid var(--cor-borda-img);
     text-align: center;
 }
 
