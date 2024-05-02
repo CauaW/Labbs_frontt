@@ -37,7 +37,7 @@ body {
 
 .container {
     margin: 0 auto;
-    width: 90%;
+    width: 940px;
 }
 
 header {
@@ -91,12 +91,12 @@ header {
 .painel {
     margin: 10px 0;
     padding: 10px;
-    width: 40%;
+    width: 445px;
 }
 .painel li{
     display: inline-block;
     vertical-align: top;
-    width: 25%;
+    width: 125px;
     margin: 2px;
     padding-bottom: 10px;
 }
@@ -125,4 +125,41 @@ header {
 }
 .mais-vendidos {
     background-color: #dcdcf5;
+}
+
+footer {
+    background-image: url(../img/fundo-rodape.png);
+    clear: both;
+    padding: 20px 0;
+    position: relative;
+}
+
+.social a {
+    height: 32px;
+    width: 32px;
+    display: block;
+    text-indent: -9999px;
+}
+
+.social a[href*="facebook.com"] {
+    background-image: url(../img/facebook.png);
+}
+
+.social a[href*="twitter.com"] {
+    background-image: url(../img/twitter.png);
+}
+
+.social a[href*="google.com"] {
+    background-image: url(../img/googleplus.png);
+}
+
+.social li {
+    float: left;
+    margin-left: 25px;
+}
+
+.social {
+    position: absolute;
+    top: 12px;
+    right: 0px;
 }
