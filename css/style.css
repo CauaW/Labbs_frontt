@@ -163,3 +163,27 @@ footer {
     top: 12px;
     right: 0px;
 }
+
+.menu-opcoes a:hover {
+    color: var(--cor-menu-lateral-itens-hover);     
+}
+
+.menu-opcoes a:active {
+    color: var(--cor-menu-lateral-itens-active);
+}
+
+.menu-departamentos li ul {
+    display: none;
+}
+
+.menu-departamentos li:hover ul {
+    display: block;
+}
+
+.menu-departamentos ul ul li {
+    background-color: var(--cor-menu-lateral);
+}
+
+.menu-departamentos li li a::before {
+    content: '- ';
+}
