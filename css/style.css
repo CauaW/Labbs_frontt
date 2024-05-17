@@ -1,3 +1,11 @@
+:root{
+    --cor-painel-novidades: #f5dcdc;
+    --cor-painel-novidades-grad: #bebef4;
+    --cor-panel-mais-vendidos: #dcdcf5;
+    --cor-panel-mais-vendidos-grad: #f4bebe; 
+    --cor-painel-titulo: rgba(0, 0, 0, 0.5);
+}
+
 .sacola {
     background: url(../img/sacola.png) no-repeat top right;
 
@@ -15,6 +23,8 @@
     position: absolute;
     bottom: 0;
     right: 0;
+    border-radius: 10px;
+    box-shadow: inset 1px 1px 4px #999;
 }
 
 .menu-opcoes ul {
@@ -102,9 +112,11 @@ header {
 }
 .novidades {
     float: left;
+    background: linear-gradient(var(--cor-painel-novidades), var(--cor-painel-novidades-grad));
 }
 .mais-vendidos {
     float: right;
+    background: linear-gradient(var(--cor-panel-mais-vendidos), var(--cor-panel-mais-vendidos-grad));
 }
 
 .painel h2 {
@@ -112,6 +124,7 @@ header {
     font-weight: bold;
     text-transform: uppercase;
     margin-bottom: 10px;
+    text-shadow: 3px 3px 2px var(--cor-painel-titulo);
 }
 
 .painel a {
@@ -165,11 +178,11 @@ footer {
 }
 
 .menu-opcoes a:hover {
-    color: var(--cor-menu-lateral-itens-hover);     
+    color: var(--cor-menu-lateral-itens-hover);   
 }
 
 .menu-opcoes a:active {
-    color: var(--cor-menu-lateral-itens-active);
+    color: #f00;
 }
 
 .menu-departamentos li ul {
@@ -181,7 +194,7 @@ footer {
 }
 
 .menu-departamentos ul ul li {
-    background-color: var(--cor-menu-lateral);
+    background-color: #dcdcdc;
 }
 
 .menu-departamentos li li a::before {
